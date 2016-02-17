@@ -14,7 +14,7 @@
 #if_record_exist:(IMO numarası)
 	IMO *ship_list tablosunda kayıtlı mı kontrol edecek, duruma göre true veya false değer döndürecek.
 	
-#add_record:()
+#add_record:(Class)
 	IMO kayıtlı olmadığı takdirde Equasis'den çekilen bilgilerle beraber *ship_list tablosuna ekleyecek.
 	
 #remove_record:(IMO numarası)
