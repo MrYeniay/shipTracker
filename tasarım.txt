@@ -1,3 +1,7 @@
+# fonksiyon ismini belirtir.
+* tablo ismini belirtir.
+
+
 #get_imo_list:
 	Marinetraffic'den istenen konumlara göre arama yaparak bulduğu gemlerin IMO'larını içeren bir dizi geriye döndürecek.
 	
