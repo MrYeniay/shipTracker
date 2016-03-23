@@ -18,6 +18,7 @@
 		$sql = mysql_query($sql, $db) or die(mysql_error());
 		if($sql)
 			echo "Veritabanı oluşturuldu.<br/>";
+		$db_check = @mysql_select_db($db_name, $db);
 }
 	mysql_query("SET NAMES 'utf8'");	
 
